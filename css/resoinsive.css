@@ -1,0 +1,70 @@
+@media (min-width:320px) and (max-width:575px) {
+
+    nav button i {
+        color: #fff;
+    }
+
+    nav .navbar-collapse {
+        background: linear-gradient(215deg, #48d4de, #3893d1);
+        width: 100%;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        z-index: 6;
+        text-align: right;
+        padding: 10px;
+        padding-bottom: 20px;
+    }
+
+    padding-bottom: 20px;
+
+
+    nav ul li a::before {
+        top: 35px;
+    }
+
+    nav ul li a {
+        display: inline-block !important;
+    }
+
+
+    #banner_sec {
+        padding-top: 120px;
+        padding-bottom: 20px;
+    }
+
+    #banner_sec h4 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+
+    #banner_sec .img_re {
+        display: none;
+    }
+
+    #banner_sec .link p {
+        top: 15%;
+    }
+
+    #banner_sec .app_store {
+        margin-right: 0;
+        margin-left: 25px;
+    }
+
+    #banner_sec .Play_store {
+        margin-left: 25px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    /*  */
+}

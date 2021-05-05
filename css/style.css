@@ -108,6 +108,7 @@ nav .sing_btn a {
     font-size: 16px;
     font-weight: 400;
     transition: .5s;
+    display: inline-block;
 }
 
 nav .sing_btn a:hover {
@@ -672,13 +673,94 @@ nav .sing_btn a:hover {
 
 
 /* -------- team_sec END -------- */
+
+#team_sec .member {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: .3s;
+}
+
+#team_sec .member .img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 20px;
+    height: 280px;
+    overflow: hidden;
+    transition: .5s;
+    z-index: 99;
+}
+
+#team_sec .member .img img {
+    z-index: 199;
+}
+
+#team_sec .member .detail {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+    margin-top: -150px;
+    opacity: 0;
+    transition: .5s;
+}
+
+#team_sec .member .detail h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #222;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#team_sec .member .detail p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #444;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+#team_sec .member ul li a i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    color: #222;
+    background: transparent;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: .3s;
+}
+
+#team_sec .member ul li a:hover i {
+    background: linear-gradient(to right, #36d1dc, #5a87e5);
+    color: #fff;
+}
+
+#team_sec .member ul li {
+    display: inline-block;
+}
+
+#team_sec .member:hover {
+    box-shadow: 0px 0px 7px 3px rgba(199, 199, 199, 0.38);
+}
+
+#team_sec .member:hover .img {
+    margin-top: -60px;
+}
+
+#team_sec .member:hover .detail {
+    margin-top: 0;
+    opacity: 1;
+}
+
 /* -------- team_sec END -------- */
 
 
 
 /* -------- contact_sec END -------- */
 #contact_sec {
-    padding: 40px 0;
+    padding-top: 30px;
+    padding-bottom: 100px;
 }
 
 #contact_sec form input {
@@ -720,6 +802,139 @@ nav .sing_btn a:hover {
 }
 
 /* -------- contact_sec END -------- */
+
+
+/* -------- contact_sec END -------- */
+footer {
+    padding-bottom: 20px;
+    background: #2c2e32;
+}
+
+footer .news_bg {
+    background: linear-gradient(to right, #36d0dc, #5280e6, #36d0dc);
+    padding: 20px 0;
+    transform: translateY(-50%);
+}
+
+footer .news {
+    position: relative;
+    padding-left: 60px;
+}
+
+footer .news i {
+    font-size: 55px;
+    color: #fff;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+footer .news h4 {
+    font-size: 42px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Abril Fatface', cursive;
+    text-transform: uppercase;
+}
+
+footer .news p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #dddddd;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .sub form {
+    position: relative;
+}
+
+footer .sub input {
+    width: 345px;
+    height: 50px;
+    padding-left: 20px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 25px;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+footer .sub button {
+    text-align: center;
+    padding: 8px 18px;
+    border-radius: 25px;
+    background: #fff;
+    border: none;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #5280e6;
+    position: absolute;
+    top: 2px;
+    left: 238px;
+}
+
+footer .logo_link {
+    text-align: center;
+}
+
+footer .logo {
+    margin-bottom: 40px;
+}
+
+footer .logo_link ul li {
+    display: inline-block;
+    transition: .3s;
+    margin: 0 10px;
+}
+
+footer .logo_link ul li i {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+    color: #222;
+    font-size: 20px;
+    text-align: center;
+    line-height: 40px;
+    transition: .3s;
+}
+
+footer .logo_link ul li span {
+    display: block;
+    color: #fff;
+    padding-top: 5px;
+    transition: .3s;
+}
+
+footer .logo_link ul li:hover i {
+    background: linear-gradient(to right, #36cdd9, #5780e6);
+    color: #fff;
+}
+
+footer .logo_link ul li:hover span {
+    background: -webkit-linear-gradient(#36cdd9, #5780e6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer .copy_right {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    margin-top: 40px;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    text-align: center;
+}
+
+/* -------- contact_sec END -------- */
+
+
 
 
 
